@@ -44,10 +44,10 @@ It is built with Express on the server side and Vue 3 on the frontend,
 using Typescript on both ends. Uploaded files are stored on server's 
 filesystem with info about them saved to LevelDB.
 
-- [Client 
+<!-- - [Client 
 repository](https://gitlab.com/islambeg-frontend-projects/fullstack/unslash/client)
 - [Server 
-repository](https://gitlab.com/islambeg-frontend-projects/fullstack/unslash/server)
+repository](https://gitlab.com/islambeg-frontend-projects/fullstack/unslash/server) -->
 
 Building this app helped me to better understand how file uploading works 
 as well as get a glimpse of what fullstack development process looks like.
@@ -92,10 +92,10 @@ From your command line:
 $ mkdir unslash && cd unslash
 
 # Clone client & server repositories
-$ git clone 
-https://gitlab.com/islambeg-frontend-projects/fullstack/unslash/client && 
-git clone 
-https://gitlab.com/islambeg-frontend-projects/fullstack/unslash/server
+# $ git clone 
+# https://gitlab.com/islambeg-frontend-projects/fullstack/unslash/client && 
+# git clone 
+# https://gitlab.com/islambeg-frontend-projects/fullstack/unslash/server
 
 # Install client & server dependencies
 $ npm --prefix ./client install && npm --prefix ./server install
